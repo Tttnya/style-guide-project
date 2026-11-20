@@ -1,0 +1,22 @@
+TaskFlow
+MkDocs
+Markdown
+Material
+GitHub
+API
+REST
+JSON
+HTTP
+URL
+ISO
+WCAG
+Pull Request
+Issue
+Vale
+markdownlint
+admonition
+Mermaid
+CommonMark
+README
+GIF
+PNG

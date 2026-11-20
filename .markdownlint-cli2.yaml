@@ -1,0 +1,22 @@
+config:
+  default: true
+  MD003:
+    style: atx
+  MD004:
+    style: dash
+  MD013:
+    line_length: 100
+    tables: false
+    code_blocks: false
+  MD024:
+    siblings_only: true
+  MD029:
+    style: ordered
+  MD033:
+    allowed_elements: [kbd]
+  MD060: false  # выравнивание таблиц не проверяется
+  MD046:
+    style: fenced
+globs:
+  - "docs/**/*.md"
+  - "*.md"

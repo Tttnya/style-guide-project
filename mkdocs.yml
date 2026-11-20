@@ -1,0 +1,58 @@
+site_name: Руководство по стилю документации TaskFlow
+site_description: Правила разработки и оформления пользовательской и API-документации веб-сервиса TaskFlow
+site_url: https://tttnya.github.io/style-guide-project/
+repo_url: https://github.com/Tttnya/style-guide-project
+repo_name: style-guide-project
+edit_uri: edit/main/docs/
+docs_dir: docs
+strict: true
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+
+plugins:
+  - search:
+      lang: ru
+
+nav:
+  - Главная: index.md
+  - Принципы и голос: principles.md
+  - Язык и стиль: language.md
+  - Терминология: terminology.md
+  - Структура документов: structure.md
+  - Оформление текста: formatting.md
+  - Интерфейс, код и API: ui-and-code.md
+  - Иллюстрации: media.md
+  - Шаблоны: templates.md
+  - Процесс Docs as Code: process.md

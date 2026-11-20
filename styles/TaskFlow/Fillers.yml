@@ -1,0 +1,12 @@
+extends: existence
+message: "Лишнее слово «%s»: удалите его."
+level: warning
+ignorecase: true
+tokens:
+  - очень
+  - просто
+  - легко
+  - очевидно
+  - практически
+  - в принципе
+  - достаточно
