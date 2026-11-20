@@ -54,5 +54,6 @@ nav:
   - Оформление текста: formatting.md
   - Интерфейс, код и API: ui-and-code.md
   - Иллюстрации: media.md
+  - Доступность текста: accessibility.md
   - Шаблоны: templates.md
   - Процесс Docs as Code: process.md
